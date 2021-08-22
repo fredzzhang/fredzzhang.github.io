@@ -228,7 +228,7 @@ input, select, textarea {
 
 
 /* ------------------
-Customisations
+Start of customisations
 ------------------ */
 .footer {
 	background-color: #444444;
@@ -268,7 +268,7 @@ Customisations
 	font-size: 1.1em;
 	font-weight: 800;
 	color: #303030;
-	line-height: 180%;
+	/* line-height: 180%; */
 }
 
 .paper-abstract {
@@ -296,17 +296,20 @@ Customisations
 #paper-author {
 	font-size: 0.9em;
 	font-weight: 500;
-	color: #444444;
+	display: block;
+	margin-bottom: 1.2em;
 }
 
 #paper-venue {
 	font-size: 0.9em;
 	font-weight: 550;
+	display: block;
 }
 
 #paper-links {
 	font-size: 0.9em;
 	font-weight: 100;
+	display: block;
 }
 
 #job {
@@ -318,6 +321,14 @@ Customisations
 	font-size: 1em;
 	color: #303030;
 }
+
+#work a {
+	color: #444444;
+}
+
+/* ------------------
+End of customisations
+------------------ */
 
 /* Container */
 
