@@ -271,6 +271,28 @@ Customisations
 	line-height: 180%;
 }
 
+.paper-abstract {
+	background-color: #EEEEEE;
+	display: none;
+	font-size: 0.7em;
+	font-weight: 100;
+	line-height: 120%;
+	text-align: justify;
+	border: 1px dashed #AAAAAA;
+	padding: 5px;
+}
+
+.paper-bibtex {
+	background-color: #EEEEEE;
+	display: none;
+	font-size: 0.7em;
+	font-weight: 100;
+	font-family: 'Courier New', Courier, monospace;
+	line-height: 120%;
+	border: 1px dashed #AAAAAA;
+	padding: 5px;
+}
+
 #paper-author {
 	font-size: 0.9em;
 	font-weight: 500;
