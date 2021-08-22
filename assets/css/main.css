@@ -226,6 +226,27 @@ input, select, textarea {
 			font-size: 1.25em;
 		}
 
+
+/* ------------------
+Customisations
+------------------ */
+.info {
+	text-align: center;
+	margin: 2em 2em 2em 0;
+	color: #303030;
+	height: 40px;
+}
+
+#job {
+	font-size: 1.25em;
+	font-weight: 600;
+}
+
+#locator-link{
+	font-size: 1em;
+	color: #303030;
+}
+
 /* Container */
 
 	.container {
@@ -2230,6 +2251,10 @@ input, select, textarea {
 	@media screen and (max-width: 980px) {
 
 		/* Articles */
+		
+			.info {
+				margin: 2em 0 2em 0;
+			}
 
 			#top {
 				text-align: center;
@@ -2410,6 +2435,10 @@ input, select, textarea {
 					}
 
 		/* Articles */
+
+			.info {
+				margin: 2em 0 2em 0;
+			}
 
 			#top {
 				padding: 3em 0;
