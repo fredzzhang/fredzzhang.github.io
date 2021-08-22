@@ -246,13 +246,45 @@ Customisations
 	height: 40px;
 }
 
-.paper {
-	margin: 0 0 1em 1em;
-	text-align: left;
+.gradient-shadow {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .paper-table {
-	border: none;
+	margin: 0 2em 0 1em;
+}
+
+
+.paper-teaser {
+	width: 40%;
+	text-align: left;
+	vertical-align: top;
+}
+
+.paper-info {
+	text-align: left;
+	width: 55%;
+	vertical-align: top;
+	font-size: 1.1em;
+	font-weight: 800;
+	color: #303030;
+	line-height: 180%;
+}
+
+#paper-author {
+	font-size: 0.9em;
+	font-weight: 500;
+	color: #444444;
+}
+
+#paper-venue {
+	font-size: 0.9em;
+	font-weight: 550;
+}
+
+#paper-links {
+	font-size: 0.9em;
+	font-weight: 100;
 }
 
 #job {
