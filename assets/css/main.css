@@ -230,11 +230,29 @@ input, select, textarea {
 /* ------------------
 Customisations
 ------------------ */
+.footer {
+	background-color: #444444;
+	text-align: center;
+	position: absolute;
+	height: 80px;
+	width: 100%;
+	padding: 25px;
+}
+
 .info {
 	text-align: center;
 	margin: 2em 2em 2em 0;
 	color: #303030;
 	height: 40px;
+}
+
+.paper {
+	margin: 0 0 1em 1em;
+	text-align: left;
+}
+
+.paper-table {
+	border: none;
 }
 
 #job {
@@ -1964,7 +1982,7 @@ Customisations
 		}
 
 /* Icons */
-
+/* 
 	.icon {
 		text-decoration: none;
 		text-decoration: none;
@@ -2008,7 +2026,7 @@ Customisations
 
 			.icon.featured:before {
 				font-size: 6em;
-			}
+			} */
 
 /* Wrappers */
 
@@ -2154,6 +2172,7 @@ Customisations
 			font-size: 0.9em;
 			line-height: 1.75em;
 			word-wrap: break-word;
+			text-align: justify;
 		}
 
 			#top p a {
@@ -2161,7 +2180,7 @@ Customisations
 			}
 
 	#contact footer {
-		font-size: 0.9em;
+		font-size: 1em;
 	}
 
 /* Copyright */
@@ -2251,7 +2270,7 @@ Customisations
 	@media screen and (max-width: 980px) {
 
 		/* Articles */
-		
+
 			.info {
 				margin: 2em 0 2em 0;
 			}
