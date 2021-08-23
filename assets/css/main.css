@@ -244,7 +244,10 @@ Start of customisations
 	width: 5%;
 	margin: 5px;
 	position: relative;
-	transition: top ease 0.5s;
+	-moz-transition: top ease 500ms;
+	-webkit-transition: top ease 500ms;
+	-ms-transition: top ease 500ms;
+	transition: top ease 500ms;
 }
 
 .icon:hover {
