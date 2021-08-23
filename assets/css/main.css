@@ -239,6 +239,11 @@ Start of customisations
 	padding: 25px;
 }
 
+.icon {
+	width: 5%;
+	margin: 5px;
+}
+
 .info {
 	text-align: center;
 	margin: 2em 2em 2em 0;
@@ -2509,6 +2514,11 @@ End of customisations
 					margin-left: auto !important;
 					margin-right: auto !important;
 				}
+
+		/* Icons */
+			.icon {
+				width: 10%;
+			}
 
 		/* Wrappers */
 
