@@ -263,7 +263,7 @@ Start of customisations
 
 .paper-info {
 	text-align: left;
-	width: 55%;
+	width: 60%;
 	vertical-align: top;
 	font-size: 1.1em;
 	font-weight: 800;
@@ -273,6 +273,7 @@ Start of customisations
 
 .paper-abstract {
 	background-color: #EEEEEE;
+	width: 95%;
 	display: none;
 	font-size: 0.7em;
 	font-weight: 100;
@@ -284,6 +285,7 @@ Start of customisations
 
 .paper-bibtex {
 	background-color: #EEEEEE;
+	width: 95%;
 	display: none;
 	font-size: 0.7em;
 	font-weight: 100;
@@ -2338,6 +2340,20 @@ End of customisations
 
 			.info {
 				margin: 2em 0 2em 0;
+			}
+
+			.paper-teaser {
+				width: 90%;
+				text-align: center;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+			.paper-info {
+				width: 90%;
+				display: block;
+				margin-left: auto;
+				text-align: left;
 			}
 
 			#top {
