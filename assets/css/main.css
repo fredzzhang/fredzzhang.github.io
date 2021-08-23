@@ -265,6 +265,45 @@ Start of customisations
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.paper {
+	display: flex;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+	align-items: center;
+	justify-content: center;
+	background-color: #FFFFFF;
+}
+
+	@media screen and (max-width: 1680px) {
+
+		.paper {
+			padding: 1em 1em 1em 2em;
+		}
+
+	}
+
+	@media screen and (max-width: 1280px) {
+
+		.paper {
+			padding: 1em 1em 1em 2em;
+		}
+	}
+
+	@media screen and (max-width: 980px) {
+
+		.paper {
+			padding: 1em 0 1em 0;
+		}
+	}
+
+	@media screen and (max-width: 736px) {
+
+		.paper {
+			padding: 1em 0.2em 1em 0.2em;
+			margin: 0;
+		}
+	}
+
 .paper-teaser {
 	width: 40%;
 	text-align: left;
