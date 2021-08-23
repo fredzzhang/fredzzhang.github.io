@@ -240,8 +240,15 @@ Start of customisations
 }
 
 .icon {
+	top: 0;
 	width: 5%;
 	margin: 5px;
+	position: relative;
+	transition: top ease 0.5s;
+}
+
+.icon:hover {
+	top: -10px;
 }
 
 .info {
