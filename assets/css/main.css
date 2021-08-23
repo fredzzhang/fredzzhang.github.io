@@ -269,7 +269,7 @@ Start of customisations
 	display: flex;
 	flex-wrap: wrap;
 	box-sizing: border-box;
-	align-items: center;
+	align-items: stretch;
 	justify-content: center;
 	background-color: #FFFFFF;
 }
@@ -277,7 +277,7 @@ Start of customisations
 	@media screen and (max-width: 1680px) {
 
 		.paper {
-			padding: 1em 1em 1em 2em;
+			padding: 1.5em 1em 1em 2em;
 		}
 
 	}
@@ -285,21 +285,21 @@ Start of customisations
 	@media screen and (max-width: 1280px) {
 
 		.paper {
-			padding: 1em 1em 1em 2em;
+			padding: 2em 1em 1.8em 2em;
 		}
 	}
 
 	@media screen and (max-width: 980px) {
 
 		.paper {
-			padding: 1em 0 1em 0;
+			padding: 2em 0 2em 0;
 		}
 	}
 
 	@media screen and (max-width: 736px) {
 
 		.paper {
-			padding: 1em 0.2em 1em 0.2em;
+			padding: 2em 0 2em 0;
 			margin: 0;
 		}
 	}
@@ -308,6 +308,7 @@ Start of customisations
 	width: 40%;
 	text-align: left;
 	vertical-align: top;
+	position: relative;
 }
 
 .paper-info {
@@ -317,7 +318,6 @@ Start of customisations
 	font-size: 1.1em;
 	font-weight: 800;
 	color: #303030;
-	/* line-height: 180%; */
 }
 
 .paper-abstract {
