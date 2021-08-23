@@ -262,11 +262,6 @@ Start of customisations
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.paper-table {
-	margin: 0 2em 0 1em;
-}
-
-
 .paper-teaser {
 	width: 40%;
 	text-align: left;
