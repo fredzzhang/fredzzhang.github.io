@@ -322,7 +322,7 @@ Start of customisations
 
 .paper-abstract {
 	background-color: #EEEEEE;
-	width: 95%;
+	width: 98%;
 	display: none;
 	font-size: 0.7em;
 	font-weight: 100;
@@ -334,7 +334,7 @@ Start of customisations
 
 .paper-bibtex {
 	background-color: #EEEEEE;
-	width: 95%;
+	width: 98%;
 	display: none;
 	font-size: 0.7em;
 	font-weight: 100;
@@ -342,6 +342,26 @@ Start of customisations
 	line-height: 120%;
 	border: 1px dashed #AAAAAA;
 	padding: 5px;
+}
+
+@media screen and (max-width: 980px) {
+
+	.paper-abstract {
+		width: 85%;
+	}
+	.paper-bibtex {
+		width: 85%;
+	}
+}
+
+@media screen and (max-width: 736px) {
+
+	.paper-abstract {
+		width: 90%;
+	}
+	.paper-bibtex {
+		width: 90%;
+	}
 }
 
 #paper-author {
