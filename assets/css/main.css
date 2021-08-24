@@ -272,15 +272,8 @@ Start of customisations
 	align-items: stretch;
 	justify-content: center;
 	background-color: #FFFFFF;
+	padding: 1.5em 1em 1em 2em;
 }
-
-	@media screen and (max-width: 1680px) {
-
-		.paper {
-			padding: 1.5em 1em 1em 2em;
-		}
-
-	}
 
 	@media screen and (max-width: 1280px) {
 
