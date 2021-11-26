@@ -2643,7 +2643,7 @@ input, select, textarea {
 	#footer {
 		background: #E8EEF4;
 		color: #7c8081;
-		padding: 5em 5em 10em 5em;
+		padding: 1em 1em 1em 1em;
 		text-align: center;
 	}
 
@@ -2746,9 +2746,9 @@ input, select, textarea {
 
 		/* Footer */
 
-			#footer {
+			/* #footer {
 				padding: 4em;
-			}
+			} */
 
 	}
 
@@ -2954,9 +2954,9 @@ input, select, textarea {
 
 		/* Footer */
 
-			#footer {
+			/* #footer {
 				padding: 4em 1.5em;
-			}
+			} */
 
 		/* Nav */
 
@@ -3310,9 +3310,9 @@ input, select, textarea {
 
 		/* Footer */
 
-			#footer {
+			/* #footer {
 				padding: 3em 1.5em;
-			}
+			} */
 
 				#footer .copyright li {
 					display: block;
