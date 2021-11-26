@@ -2625,6 +2625,10 @@ input, select, textarea {
 		line-height: 1.3;
 	}
 
+	html {
+		scroll-behavior: smooth;
+	}
+
 /* Main */
 
 	#main {
