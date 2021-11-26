@@ -2554,50 +2554,29 @@ input, select, textarea {
 			text-align: center;
 		}
 
-			#banner .inner h3 {
-				text-transform: none;
-				margin: 0.5em 0 0.5em 0;
-			}
+		#banner .inner h3 {
+			text-transform: none;
+			margin: 0.5em 0 0.5em 0;
+		}
 
-			/* #banner .inner header {
-				display: inline-block;
-				border-bottom: solid 2px;
-				border-top: solid 2px;
-				margin: 0 0 2em 0;
-				padding: 3px 0 3px 0;
-			} */
+		#banner .inner header h2 {
+			font-size: 1.5em;
+			font-weight: 400;
+			margin: 0.5em 0 0.5em 0;
+			padding-left: 0.05em;
+			position: relative;
+			text-transform: none;
+		}
 
-				#banner .inner header h2 {
-					font-size: 1.5em;
-					font-weight: 400;
-					margin: 0.5em 0 0.5em 0;
-					padding-left: 0.05em;
-					position: relative;
-					text-transform: none;
-				}
+		#banner .inner p a {
+			color: inherit;
+			font-weight: 400;
+			text-decoration: none;
+		}
 
-
-			/* #banner .inner p {
-				width: 60%;
-				margin-left: auto;
-				margin-right: auto;
-				text-align: justify;
-				letter-spacing: 0.1em;
-				line-height: 1.5em;
-				word-wrap: break-word;
-				text-transform: none;
-				font-size: 0.8em;
-			} */
-
-				#banner .inner p a {
-					color: inherit;
-					font-weight: 400;
-					text-decoration: none;
-				}
-
-			#banner .inner footer {
-				margin: 2em 0 0 0;
-			}
+		#banner .inner footer {
+			margin: 2em 0 0 0;
+		}
 
 	.paper-title {
 		display: inline-block;
