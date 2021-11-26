@@ -2605,13 +2605,14 @@ input, select, textarea {
 	.author .avatar {
 		position: relative;
 		width: 200px;
+		padding-bottom: .5em;
 	}
 
 	.author a {
 		text-align: center;
 		color:rgba(52, 27, 43, 0.5);
 		padding-bottom: 2px;
-		font-size: 1.25em;
+		font-size: 1.5em;
 		font-weight: 400;
 	}
 
@@ -3456,6 +3457,7 @@ input, select, textarea {
 
 		.author .avatar {
 			width: 80px;
+			padding-bottom: 0;
 		}
 
 		.author a {
