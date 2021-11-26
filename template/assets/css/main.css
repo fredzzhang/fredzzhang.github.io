@@ -2605,7 +2605,6 @@ input, select, textarea {
 	.author .avatar {
 		position: relative;
 		width: 200px;
-		padding-bottom: .5em;
 	}
 
 	.author a {
@@ -2619,6 +2618,11 @@ input, select, textarea {
 	.author a:hover {
 		color: dodgerblue;
 		border-bottom: 1px solid dodgerblue;
+	}
+
+	.institute {
+		font-size: 1.25em;
+		line-height: 1.3;
 	}
 
 /* Main */
@@ -2722,6 +2726,9 @@ input, select, textarea {
 				width: 900px;
 			}
 
+		.institute {
+			font-size: 1.1em;
+		}
 	}
 
 /* Normal */
@@ -2874,6 +2881,24 @@ input, select, textarea {
 		#banner .inner header h2 {
 			font-size: 1.2em;
 			width: 700px;
+		}
+
+		/* Authors */
+		.author {
+			padding-left: 1.5em;
+			padding-right: 1.5em;
+		}
+
+		.author .avatar {
+			width: 140px;
+		}
+
+		.author a {
+			font-size: .9em;
+		}
+
+		.institute {
+			font-size: .8em;
 		}
 	}
 
@@ -3417,5 +3442,24 @@ input, select, textarea {
 				font-size: 1.1em;
 				width: 95%;
 			}
+
+
+		/* Authors */
+		.author {
+			padding-left: .5em;
+			padding-right: .5em;
+		}
+
+		.author .avatar {
+			width: 80px;
+		}
+
+		.author a {
+			font-size: .7em;
+		}
+
+		.institute {
+			font-size: .7em;
+		}
 
 	}
