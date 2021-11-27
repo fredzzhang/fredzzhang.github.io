@@ -3523,6 +3523,7 @@ input, select, textarea {
 		}
 
 		.teaser {
+			padding-top: .5em;
 			width: 90%;
 		}
 
