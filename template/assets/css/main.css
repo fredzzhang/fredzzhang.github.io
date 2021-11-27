@@ -2597,6 +2597,30 @@ input, select, textarea {
 		font-size: 0.9em;
 	}
 
+	.paper-link {
+		padding: 2em 1em;
+		display: inline-block;
+	}
+
+	.paper-link .logo {
+		width: 60px;
+		top: 0;
+		position: relative;
+		-moz-transition: top ease 500ms;
+		-webkit-transition: top ease 500ms;
+		-ms-transition: top ease 500ms;
+		transition: top ease 500ms;
+	}
+
+	.paper-link:hover .logo {
+		top: -10px;
+	}
+
+	.paper-link p {
+		font-size: 1.1em;
+		color: rgba(52, 27, 43, 0.5);
+	}
+
 	.author {
 		padding: 1em 2.5em;
 		display: inline-block;
