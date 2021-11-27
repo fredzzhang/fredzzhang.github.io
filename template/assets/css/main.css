@@ -3405,7 +3405,7 @@ input, select, textarea {
 			}
 
 				#banner .inner {
-					background: none;
+					/* background: none; */
 					display: block;
 					/* padding: 0 1.5em; */
 				}
@@ -3495,6 +3495,8 @@ input, select, textarea {
 			#banner .inner {
 				padding-left: .5em;
 				padding-right: .5em;
+				padding-bottom: 0.1em;
+				padding-top: 1.5em;
 			}
 
 			#banner .inner header h2 {
