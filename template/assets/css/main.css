@@ -2908,6 +2908,13 @@ input, select, textarea {
 			font-size: 0.8em;
 		}
 
+		.paper-link .logo {
+			width: 40px;
+		}
+		.paper-link p {
+			font-size: 0.8em;
+		}
+
 		#banner .inner header h2 {
 			font-size: 1.2em;
 			width: 700px;
@@ -3456,6 +3463,13 @@ input, select, textarea {
 			.paper-abstract {
 				width: 95%;
 				font-size: 0.81em;
+			}
+
+			.paper-link .logo {
+				width: 30px;
+			}
+			.paper-link p {
+				font-size: 0.7em;
 			}
 	
 			#banner {
