@@ -2696,6 +2696,20 @@ input, select, textarea {
 		padding-top: 5em;
 	}
 
+/* Paper Results */
+
+	.results {
+		padding: 1em 1em;
+		text-align: center;
+	}
+
+		.results h1 {
+			text-align: inherit;
+			font-size: 2em;
+			text-transform: capitalize;
+			font-weight: 400;
+		}
+
 /* CTA */
 
 	#cta {
