@@ -2598,7 +2598,7 @@ input, select, textarea {
 	}
 
 	.paper-link {
-		padding: 2em 1em;
+		padding: 1em 1em;
 		display: inline-block;
 	}
 
@@ -2656,7 +2656,7 @@ input, select, textarea {
 	}
 
 	.teaser {
-		width: 750px;
+		width: 720px;
 		display: block;
 		position: relative;
 		top: -2em;
