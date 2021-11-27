@@ -1734,8 +1734,8 @@ input, select, textarea {
 	}
 
 		header.special:before, header.special:after {
-			border-bottom: solid 1.5px;
-			border-top: solid 1.5px;
+			border-bottom: solid 3px #1c2021;
+			border-top: solid 3px #1c2021;
 			content: '';
 			height: 7px;
 			opacity: 0.1;
