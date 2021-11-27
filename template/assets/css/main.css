@@ -2655,10 +2655,20 @@ input, select, textarea {
 		scroll-behavior: smooth;
 	}
 
+	.teaser {
+		width: 600px;
+		display: block;
+		position: relative;
+		top: -2em;
+		margin: 0 auto;
+		padding: 0em 1em;
+	}
+
 /* Main */
 
 	#main {
-		background-image: url("images/dark-tl.svg"), url("images/dark-tr.svg"), url("images/dark-bl.svg"), url("images/dark-br.svg");
+		/* background-image: url("images/dark-tl.svg"), url("images/dark-tr.svg"), url("images/dark-bl.svg"), url("images/dark-br.svg"); */
+		background-color: #ffffff;
 		background-position: top left, top right, bottom left, bottom right;
 		background-repeat: no-repeat;
 		background-size: 25em;
