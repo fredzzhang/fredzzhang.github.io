@@ -2661,7 +2661,8 @@ input, select, textarea {
 		position: relative;
 		top: -2em;
 		margin: 0 auto;
-		padding: 0em 1em;
+		padding: 1em 1em;
+		border-top: 1px solid rgb(233, 233, 233);
 	}
 
 /* Main */
@@ -2946,6 +2947,10 @@ input, select, textarea {
 
 		.institute {
 			font-size: .8em;
+		}
+
+		.teaser {
+			width: 500px;
 		}
 	}
 
@@ -3515,6 +3520,10 @@ input, select, textarea {
 
 		.institute {
 			font-size: .7em;
+		}
+
+		.teaser {
+			width: 80%;
 		}
 
 	}
