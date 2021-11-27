@@ -2656,7 +2656,7 @@ input, select, textarea {
 	}
 
 	.teaser {
-		width: 600px;
+		width: 750px;
 		display: block;
 		position: relative;
 		top: -2em;
@@ -2950,7 +2950,7 @@ input, select, textarea {
 		}
 
 		.teaser {
-			width: 500px;
+			width: 550px;
 		}
 	}
 
