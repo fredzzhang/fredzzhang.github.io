@@ -2737,6 +2737,34 @@ input, select, textarea {
 			display: block;
 		}
 
+	/* Citation */
+	.citation {
+		width: 950px;
+		display: block;
+		margin: 0 auto;
+		text-align: left;
+	}
+		.citation h1 {
+			text-align: center;
+			font-size: 2em;
+			text-transform: capitalize;
+			font-weight: 400;
+		}
+		.citation p {
+			text-align: left;
+		}
+
+		.citation pre {
+			text-align: left;
+			font-family: 'Courier New', Courier, monospace;
+			letter-spacing: -.5px;
+			font-size: 0.8em;
+			line-height: 1.2em;
+			white-space: pre-wrap;
+			word-wrap: break-word;
+			padding: 1em 0;
+		}
+
 /* CTA */
 
 	#cta {
