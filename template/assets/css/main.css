@@ -919,7 +919,7 @@ input, select, textarea {
 
 	/* Citation */
 	.citation {
-		width: 950px;
+		width: 1000px;
 		display: block;
 		margin: 0 auto;
 		text-align: left;
@@ -1009,51 +1009,56 @@ input, select, textarea {
 
 		/* Basic */
 
-			body, input, select, textarea {
-				font-size: 13pt;
-				letter-spacing: 0.025em;
-				line-height: 1.65em;
-			}
+		body, input, select, textarea {
+			font-size: 13pt;
+			letter-spacing: 0.025em;
+			line-height: 1.65em;
+		}
 
-			h1, h2, h3, h4, h5, h6 {
-				line-height: 1.5em;
-			}
+		h1, h2, h3, h4, h5, h6 {
+			line-height: 1.5em;
+		}
 
 		/* Section/Article */
 
-			header.major {
-				padding-bottom: 1.5em;
-			}
+		header.major {
+			padding-bottom: 1.5em;
+		}
 
-			footer.major {
-				padding-top: 2em;
-			}
+		footer.major {
+			padding-top: 2em;
+		}
 
 		/* Header */
 
-			#header nav ul li {
-				margin-left: 1em;
-			}
+		#header nav ul li {
+			margin-left: 1em;
+		}
 
 		/* Banner */
 
-			#banner {
-				background-attachment: scroll;
-			}
+		#banner {
+			background-attachment: scroll;
+		}
 
 		/* Paper abstract */
-			.paper-abstract {
-				width: 850px;
-			}
+		.paper-abstract {
+			width: 850px;
+		}
 
 		/* Paper results */
-			.results {
-				width: 900px;
-			}
+		.results {
+			width: 900px;
+		}
 
-			.image-result img {
-				height: 110px;
-			}
+		.image-result img {
+			height: 110px;
+		}
+
+		/* Citation */
+		.citation {
+			width: 900px;
+		}
 	}
 
 /* Narrow */
@@ -1152,6 +1157,11 @@ input, select, textarea {
 
 		.image-result img {
 			height: 95px;
+		}
+
+		/* Citation */
+		.citation {
+			width: 720px;
 		}
 	}
 
@@ -1439,6 +1449,11 @@ input, select, textarea {
 		.image-result img {
 			height: 95px;
 		}
+
+		/* Citation */
+		.citation {
+			width: 580px;
+		}
 	}
 
 /* Mobile */
@@ -1657,6 +1672,11 @@ input, select, textarea {
 		}
 		.image-result p {
 			font-size: 0.7em;
+		}
+
+		/* Citation */
+		.citation {
+			width: 85%;
 		}
 
 	}
