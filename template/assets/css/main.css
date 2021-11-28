@@ -3555,7 +3555,7 @@ input, select, textarea {
 			}
 
 			.paper-link .logo {
-				width: 30px;
+				width: 40px;
 			}
 			.paper-link p {
 				font-size: 0.7em;
@@ -3586,12 +3586,12 @@ input, select, textarea {
 		}
 
 		.author .avatar {
-			width: 80px;
+			width: 100px;
 			padding-bottom: 0;
 		}
 
 		.author a {
-			font-size: .7em;
+			font-size: .8em;
 		}
 
 		.institute {
@@ -3600,18 +3600,18 @@ input, select, textarea {
 
 		.teaser {
 			padding-top: .5em;
-			width: 90%;
+			width: 95%;
 		}
 
 		/* Paper results */
 		.results {
-			width: 85%;
+			width: 92%;
 		}
 			.results h1 {
 				font-size: 1.2em;
 			}
 			.results h2 {
-				font-size: 0.8em;
+				font-size: 0.75em;
 			}
 
 		.image-result img {
