@@ -2699,7 +2699,11 @@ input, select, textarea {
 /* Paper Results */
 
 	.results {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
 		padding: 1em 1em;
+		width: 1100px;
 		text-align: center;
 	}
 
@@ -2708,6 +2712,29 @@ input, select, textarea {
 			font-size: 2em;
 			text-transform: capitalize;
 			font-weight: 400;
+		}
+
+		.results h2 {
+			font-size: 1.2em;
+			font-weight: 200;
+			text-transform: none;
+		}
+
+	.image-result {
+		display: inline-block;
+		padding: 0 0.1em;
+	}
+	
+		.image-result p {
+			font-size: 0.8em;
+			font-style: italic;
+			font-family: 'Times New Roman', Times, serif;
+			font-weight: 100;
+		}
+
+		.image-result img {
+			height: 125px;
+			display: block;
 		}
 
 /* CTA */
