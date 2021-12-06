@@ -2304,10 +2304,12 @@ End of customisations
 		}
 
 		#top p {
+			margin-bottom: 0;
 			font-size: 0.9em;
 			line-height: 1.75em;
-			word-wrap: break-word;
+			word-break: break-word;
 			text-align: justify;
+			display: inline-block;
 		}
 
 			#top p a {
