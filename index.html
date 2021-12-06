@@ -67,6 +67,34 @@
 						<h2 style="margin-bottom: 2em;">Research</h2>
 
 						<div class="paper gradient-shadow">
+							<div class="paper-teaser"><img src="images/publications/tokens.png" width="90%"></div>
+							<div class="paper-info">
+									Efficient Two-Stage Detection of Human&ndash;Object Interactions with a Novel Unary&ndash;Pairwise Transformer
+									<span id="paper-author"><b>Frederic Z. Zhang</b>, <a href="https://sites.google.com/view/djcampbell/" target="_blank" rel="noopener noreferrer">Dylan Campbell</a> and <a href="http://users.cecs.anu.edu.au/~sgould/" target="_blank" rel="noopener noreferrer">Stephen Gould</a></span>
+									<span id="paper-venue">TBD</span>
+									<span id="paper-links">
+										[<a href="javascript:void(0);" onclick="showTextBox('upt-abstract')">abstract</a>]
+										<!-- [<a href="https://openaccess.thecvf.com/content/ICCV2021/papers/Zhang_Spatially_Conditioned_Graphs_for_Detecting_Human-Object_Interactions_ICCV_2021_paper.pdf">paper</a>] -->
+										<!-- [<a href="https://openaccess.thecvf.com/content/ICCV2021/supplemental/Zhang_Spatially_Conditioned_Graphs_ICCV_2021_supplemental.pdf">supp</a>] -->
+										[<a href="">preprint</a>]
+										[<a href="https://github.com/fredzzhang/upt">code</a>]
+										<!-- [<a href="https://www.youtube.com/watch?v=gkBWi_rWedU">video</a>] -->
+										[<a href="javascript:void(0);" onclick="showTextBox('upt-bibtex')">bibtex</a>]
+									</span>
+									<div id="upt-abstract" class="paper-abstract">
+										Recent developments in transformer models for visual data have led to significant improvements in recognition and detection tasks. In particular, using learnable queries in place of region proposals has given rise to a new class of one-stage detection models, spearheaded by the Detection Transformer (DETR). Variations on this one-stage approach have since dominated human&ndash;object interaction (HOI) detection. However, the success of such one-stage HOI detectors can largely be attributed to the representation power of transformers. We discovered that when equipped with the same transformer, their two-stage counterparts can be more performant and memory-efficient, while taking a fraction of the time to train. In this work, we propose the Unary&ndash;Pairwise Transformer, a two-stage detector that exploits unary and pairwise representations for HOIs. We observe that the unary and pairwise parts of our transformer network specialize, with the former preferentially increasing the scores of positive examples and the latter decreasing the scores of negative examples. We evaluate our method on the HICO-DET and V-COCO datasets, and significantly outperform state-of-the-art approaches. At inference time, our model with ResNet50 approaches real-time performance on a single GPU.
+									</div>
+									<div id="upt-bibtex", class="paper-bibtex">
+										@inproceedings{zhang2021upt,<br>
+										&nbsp;&nbsp;author = {Frederic Z. Zhang, Dylan Campbell and Stephen Gould}, <br>
+										&nbsp;&nbsp;title = {Efficient Two-Stage Detection of Human&ndash;Object Interactions with a Novel Unary&ndash;Pairwise Transformer}, <br>
+										&nbsp;&nbsp;booktitle = {}, <br>
+										&nbsp;&nbsp;year = {2021} <br>
+										}
+									</div>
+							</div>
+						</div>
+						<div class="paper gradient-shadow">
 							<div class="paper-teaser"><img src="images/publications/scg.png" width="90%"></div>
 							<div class="paper-info">
 									Spatially Conditioned Graphs for Detecting Human&ndash;Object Interactions
@@ -82,10 +110,10 @@
 										[<a href="javascript:void(0);" onclick="showTextBox('scg-bibtex')">bibtex</a>]
 									</span>
 									<div id="scg-abstract" class="paper-abstract">
-										&nbsp;&nbsp;We address the problem of detecting human&ndash;object interactions in images using graphical neural networks. Unlike conventional methods, where nodes send scaled but otherwise identical messages to each of their neighbours, we propose to condition messages between pairs of nodes on their spatial relationships, resulting in different messages going to neighbours of the same node. To this end, we explore various ways of applying spatial conditioning under a multi-branch structure. Through extensive experimentation we demonstrate the advantages of spatial conditioning for the computation of the adjacency structure, messages and the refined graph features. In particular, we empirically show that as the quality of the bounding boxes increases, their coarse appearance features contribute relatively less to the disambiguation of interactions compared to the spatial information. Our method achieves an mAP of 31.33% on HICO-DET and 54.2% on V-COCO, significantly outperforming state of the art on fine-tuned detections.
+										We address the problem of detecting human&ndash;object interactions in images using graphical neural networks. Unlike conventional methods, where nodes send scaled but otherwise identical messages to each of their neighbours, we propose to condition messages between pairs of nodes on their spatial relationships, resulting in different messages going to neighbours of the same node. To this end, we explore various ways of applying spatial conditioning under a multi-branch structure. Through extensive experimentation we demonstrate the advantages of spatial conditioning for the computation of the adjacency structure, messages and the refined graph features. In particular, we empirically show that as the quality of the bounding boxes increases, their coarse appearance features contribute relatively less to the disambiguation of interactions compared to the spatial information. Our method achieves an mAP of 31.33% on HICO-DET and 54.2% on V-COCO, significantly outperforming state of the art on fine-tuned detections.
 									</div>
 									<div id="scg-bibtex", class="paper-bibtex">
-										@inproceedings{zhang2021upt,<br>
+										@inproceedings{zhang2021scg,<br>
 										&nbsp;&nbsp;author = {Frederic Z. Zhang, Dylan Campbell and Stephen Gould}, <br>
 										&nbsp;&nbsp;title = {Spatially Conditioned Graphs for Detecting Human&ndash;Object Interactions}, <br>
 										&nbsp;&nbsp;booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)}, <br>
