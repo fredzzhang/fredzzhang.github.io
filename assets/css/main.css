@@ -255,7 +255,7 @@ Start of customisations
 	transition: top ease 500ms;
 }
 
-.icon:hover {
+.social-icon:hover .icon {
 	top: -10px;
 }
 
