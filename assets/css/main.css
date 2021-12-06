@@ -309,6 +309,18 @@ Start of customisations
 	position: relative;
 }
 
+.paper-teaser img {
+	width: 90%;
+	transition: all ease-in-out 500ms;
+	-moz-transition: all ease-in-out 500ms;
+	-webkit-transition: all ease-in-out 500ms;
+	-ms-transition: all ease-in-out 500ms;
+}
+
+.paper-teaser:hover img {
+	transform: scale(1.05);
+}
+
 .paper-info {
 	text-align: left;
 	width: 60%;
