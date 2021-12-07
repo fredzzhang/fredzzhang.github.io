@@ -941,7 +941,7 @@ End of customisations
 				letter-spacing: 0;
 			}
 
-			h1, h2, h3, h4, h5, h6 {
+			h1, h3, h4 {
 				font-size: 1.25em;
 				margin: 0 0 0.4em 0;
 			}
