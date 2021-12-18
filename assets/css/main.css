@@ -830,7 +830,7 @@ End of customisations
 		}
 
 		#top p {
-			margin-bottom: 0;
+			margin-bottom: 1em;
 			font-size: 0.9em;
 			line-height: 1.75em;
 			word-break: break-word;
