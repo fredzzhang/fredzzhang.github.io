@@ -70,6 +70,39 @@
 				<div class="container">
 					<header>
 						<h2 style="margin-bottom: 2em;">Research</h2>
+						<div class="paper gradient-shadow">
+							<div class="paper-teaser"><a href="https://github.com/fredzzhang/pvic"><img src="images/publications/pvic.png"></a></div>
+							<div class="paper-info">
+									Exploring Predicate Visual Context for Detecting Human&ndash;Object Interactions
+									<span id="paper-author">
+										<b>Frederic Z. Zhang</b>,
+										<a href="https://github.com/PkuRainBow" target="_blank" rel="noopener noreferrer">Yuhui Yuan</a>, 
+										<a href="https://sites.google.com/view/djcampbell/" target="_blank" rel="noopener noreferrer">Dylan Campbell</a>, 
+										<a href="https://zhongzhuoyao.github.io/" target="_blank" rel="noopener noreferrer">Zhuoyao Zhong</a> 
+										and <a href="http://users.cecs.anu.edu.au/~sgould/" target="_blank" rel="noopener noreferrer">Stephen Gould</a>
+									</span>
+									<span id="paper-venue">To appear in the <i>IEEE International Conference on Computer Vision (ICCV)</i>, 2023.</span>
+									<span id="paper-links">
+										[<a href="javascript:void(0);" onclick="showTextBox('upt-abstract')">abstract</a>]
+										<!-- [<a href="https://openaccess.thecvf.com/content/CVPR2022/html/Zhang_Efficient_Two-Stage_Detection_of_Human-Object_Interactions_With_a_Novel_Unary-Pairwise_CVPR_2022_paper.html">paper</a>] -->
+										[<a href="https://arxiv.org/pdf/2308.06202.pdf">preprint</a>]
+										[<a href="https://github.com/fredzzhang/pvic">code</a>]
+										<!-- [<a href="https://www.youtube.com/watch?v=VneKesTm_gw">video</a>] -->
+										[<a href="javascript:void(0);" onclick="showTextBox('upt-bibtex')">bibtex</a>]
+									</span>
+									<div id="upt-abstract" class="paper-abstract">
+										Recently, the DETR framework has emerged as the dominant approach for human&ndash;object interaction (HOI) research. In particular, two-stage transformer-based HOI detectors are amongst the most performant and training-efficient approaches. However, these often condition HOI classification on object features that lack fine-grained contextual information, eschewing pose and orientation information in favour of visual cues about object identity and box extremities. This naturally hinders the recognition of complex or ambiguous interactions. In this work, we study these issues through visualisations and carefully designed experiments. Accordingly, we investigate how best to re-introduce image features via cross-attention. With an improved query design, extensive exploration of keys and values, and box pair positional embeddings as spatial guidance, our model with enhanced predicate visual context (PViC) outperforms state-of-the-art methods on the HICO-DET and V-COCO benchmarks, while maintaining low training cost.
+									</div>
+									<div id="upt-bibtex", class="paper-bibtex">
+										@inproceedings{zhang2022upt,<br>
+										&nbsp;&nbsp;author = {Zhang, Frederic Z. and Campbell, Dylan and Gould, Stephen}, <br>
+										&nbsp;&nbsp;title = {Exploring Predicate Visual Context for Detecting Human&ndash;Object Interactions}, <br>
+										&nbsp;&nbsp;booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)}, <br>
+										&nbsp;&nbsp;year = {2023}, <br>
+										}
+									</div>
+							</div>
+						</div>
 
 						<div class="paper gradient-shadow">
 							<div class="paper-teaser"><a href="https://fredzzhang.com/unary-pairwise-transformers/"><img src="images/publications/tokens.png"></a></div>
@@ -90,7 +123,7 @@
 									</div>
 									<div id="upt-bibtex", class="paper-bibtex">
 										@inproceedings{zhang2022upt,<br>
-										&nbsp;&nbsp;author = {Frederic Z. Zhang, Dylan Campbell and Stephen Gould}, <br>
+										&nbsp;&nbsp;author = {Zhang, Frederic Z. and Campbell, Dylan and Gould, Stephen}, <br>
 										&nbsp;&nbsp;title = {Efficient Two-Stage Detection of Human&ndash;Object Interactions with a Novel Unary&ndash;Pairwise Transformer}, <br>
 										&nbsp;&nbsp;booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)}, <br>
 										&nbsp;&nbsp;month = {June}, <br>
@@ -119,7 +152,7 @@
 									</div>
 									<div id="scg-bibtex", class="paper-bibtex">
 										@inproceedings{zhang2021scg,<br>
-										&nbsp;&nbsp;author = {Frederic Z. Zhang, Dylan Campbell and Stephen Gould}, <br>
+										&nbsp;&nbsp;author = {Zhang, Frederic Z. and Campbell, Dylan and Gould, Stephen}, <br>
 										&nbsp;&nbsp;title = {Spatially Conditioned Graphs for Detecting Human&ndash;Object Interactions}, <br>
 										&nbsp;&nbsp;booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)}, <br>
 										&nbsp;&nbsp;month = {October}, <br>
