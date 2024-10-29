@@ -72,6 +72,44 @@
 				<div class="container">
 					<header>
 						<h2 style="margin-bottom: 2em;">Research</h2>
+						<!-- Comp_q -->
+						<div class="paper gradient-shadow">
+							<div class="paper-teaser"><a href="https://arxiv.org/pdf/2407.12066"><img src="images/publications/composite_q.png"></a></div>
+							<div class="paper-info">
+									Temporally Grounding Instructional Diagrams in Unconstrained Videos
+									<span id="paper-author">
+										<a href="https://academic.davidz.cn/en/" target="_blank" rel="noopener noreferrer">Jiahao Zhang</a>,
+										<b>Frederic Z. Zhang</b>,
+										<a href="https://crodriguezo.me/" target="_blank" rel="noopener noreferrer">Cristian Rodriguez-Opazo</a>, 
+										<a href="https://www.itzikbs.com/" target="_blank" rel="noopener noreferrer">Yizhak Ben-Shabat</a>,
+										<a href="https://scholar.google.com/citations?user=XVUCn40AAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Anoop Cherian</a>
+										and <a href="http://users.cecs.anu.edu.au/~sgould/" target="_blank" rel="noopener noreferrer">Stephen Gould</a>
+									</span>
+									<span id="paper-venue">Winter Conference on Applications of Computer Vision (WACV), 2025.</span>
+									<span id="paper-links">
+										[<a href="javascript:void(0);" onclick="showTextBox('compq-abstract')">abstract</a>]
+										<!-- [<a href="https://openaccess.thecvf.com/content/ICCV2023/html/Zhang_Exploring_Predicate_Visual_Context_in_Detecting_of_Human-Object_Interactions_ICCV_2023_paper.html">paper</a>] -->
+										[<a href="https://arxiv.org/pdf/2407.12066">preprint</a>]
+										<!-- [<a href="https://github.com/fredzzhang/atlas">code</a>] -->
+										<!-- [<a href="https://www.youtube.com/watch?v=iYqOAXJFqpU">video</a>] -->
+										[<a href="javascript:void(0);" onclick="showTextBox('compq-bibtex')">bibtex</a>]
+									</span>
+									<div id="compq-abstract" class="paper-abstract">
+										We study the challenging problem of simultaneously localising a sequence of queries in the form of instructional diagrams in a video. This requires understanding not only the individual queries but also their interrelationships. However, most existing methods focus on grounding one query at a time, ignoring the inherent structures among queries such as the general mutual exclusiveness and the temporal order. Consequently, the predicted timespans of different step diagrams may overlap considerably or violate the temporal order, thus harming the accuracy. In this paper, we tackle this issue by simultaneously grounding a sequence of step diagrams. Specifically, we propose composite queries, constructed by exhaustively pairing up the visual content features of the step diagrams and a fixed number of learnable positional embeddings. Our insight is that self-attention among composite queries carrying different content features suppress each other to reduce timespan overlaps in predictions, while the cross-attention corrects the temporal misalignment via content and position joint guidance. We demonstrate the effectiveness of our approach on the IAW dataset for grounding step diagrams and the YouCook2 benchmark for grounding natural language queries, significantly outperforming existing methods while simultaneously grounding multiple queries.
+									</div>
+									<div id="compq-bibtex", class="paper-bibtex">
+										@misc{zhang2025compq,<br>
+										&nbsp;&nbsp;author = {Zhang, Jiahao and Zhang, Frederic Z. and Rodriguez-Opazo, Cristian and Cherian, Anoop and Gould, Stephen}, <br>
+										&nbsp;&nbsp;title = {Temporally Grounding Instructional Diagrams in Unconstrained Videos}, <br>
+										&nbsp;&nbsp;eprint={2407.12066}, <br>
+										&nbsp;&nbsp;archivePrefix={arXiv}, <br>
+										&nbsp;&nbsp;primaryClass={cs.CV}, <br>
+										&nbsp;&nbsp;url={https://arxiv.org/abs/2407.12066}, <br>
+										&nbsp;&nbsp;year = {2024}, <br>
+										}
+									</div>
+							</div>
+						</div>
 						<!-- aTLAS -->
 						<div class="paper gradient-shadow">
 							<div class="paper-teaser"><a href="https://github.com/fredzzhang/atlas"><img src="images/publications/atlas.png"></a></div>
