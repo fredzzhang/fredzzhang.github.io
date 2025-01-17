@@ -346,6 +346,7 @@ Start of customisations
 
 		.affiliation {
 			padding: 2em 0 2em 0;
+			width: 100%;
 		}
 	}
 
@@ -414,6 +415,23 @@ Start of customisations
 	}
 	.paper-bibtex {
 		width: 90%;
+	}
+	.aff-logo{
+		padding-left: 0.5em;
+		padding-right: 0.5em;
+		/* width: 30%; */
+	}
+	.aff-logo img{
+		height: 5.5em;
+	}
+	#aff-time {
+		font-size: 0.9em;
+		margin-top: 0em;
+		margin-bottom: 0em;
+	}
+	#aff-rest {
+		font-size: 0.8em;
+		line-height: 15px;
 	}
 }
 
