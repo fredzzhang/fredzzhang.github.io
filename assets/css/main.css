@@ -324,7 +324,7 @@ Start of customisations
 	margin: 0 auto; /* Centers horizontally */
 	display: flex;
 	background-color: #FFFFFF;
-	padding: 1.5em 1em 1em 2em;
+	padding: 1em 1em 0.5em 2em;
 	margin-bottom: 1em;
 }
 
@@ -377,22 +377,30 @@ Start of customisations
 	font-size: 1.1em;
 	font-weight: 550;
 	color: #303030;
-	line-height: 30px;
+	line-height: 5px;
 }
 
-#aff-time {
+#aff-time-3 {
 	font-size: 1em;
 	font-weight: 550;
 	display: block;
 	width: 100%;
-	margin-top: 0.2em;
-	margin-bottom: 0.2em;
+	margin-top: 1.2em;
+	margin-bottom: 1em;
+}
+#aff-time-4 {
+	font-size: 1em;
+	font-weight: 550;
+	display: block;
+	width: 100%;
+	margin-top: 0.6em;
+	margin-bottom: 1em;
 }
 #aff-rest {
 	font-size: 0.9em;
 	font-weight: 500;
 	display: block;
-	line-height: 25px;
+	line-height: 22px;
 	width: 100%;
 	/* margin-top: 0.2em; */
 	/* margin-bottom: 1.2em; */
