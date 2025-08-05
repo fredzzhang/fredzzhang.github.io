@@ -74,11 +74,46 @@
 				<div class="container">
 					<header>
 						<h2 style="margin-bottom: 2em;">Research</h2>
+						<!-- KRAdaptor ICCV'25 -->
+						<div class="paper gradient-shadow">
+							<div class="paper-teaser"><a href="https://github.com/fredzzhang/pvic"><img src="images/publications/khatri.png"></a></div>
+							<div class="paper-info">
+									Towards Higher Effective Rank in Parameter-Efficient Fine-Tuning Using Khatri&ndash;Rao Product
+									<span id="paper-author">
+										<a href="https://scholar.google.com/citations?user=trUhFBEAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Paul Albert</a>, 
+										<b>Frederic Z. Zhang</b>,
+										<a href="https://scholar.google.com.au/citations?user=2pBBnegAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Hemanth Saratchandran</a>,
+										<a href="https://scholar.google.com.au/citations?user=nMGZ2ZQAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Anton ven den Hengel</a> 
+										and <a href="https://ehsanabb.github.io/" target="_blank" rel="noopener noreferrer">Ehsan Abbasnejad</a>
+									</span>
+									<span id="paper-venue">International Conference on Computer Vision (ICCV), 2025.</span>
+									<span id="paper-links">
+										[<a href="javascript:void(0);" onclick="showTextBox('khatri-abstract')">abstract</a>]
+										<!-- [<a href="">paper</a>] -->
+										[<a href="https://arxiv.org/pdf/2508.00230">preprint</a>]
+										[<a href="https://github.com/PaulAlbert31/KRAdapter">code</a>]
+										<!-- [<a href="https://www.youtube.com/watch?v=iYqOAXJFqpU">video</a>] -->
+										[<a href="javascript:void(0);" onclick="showTextBox('khatri-bibtex')">bibtex</a>]
+									</span>
+									<div id="khatri-abstract" class="paper-abstract">
+										Parameter-efficient fine-tuning (PEFT) has become a standard approach for adapting large pre-trained models. Amongst PEFT methods, low-rank adaptation (LoRA) has achieved notable success. However, recent studies have highlighted its limitations compared against full-rank alternatives, particularly when applied to multimodal and large language models. In this work, we present a quantitative comparison amongst full-rank and low-rank PEFT methods using a synthetic matrix approximation benchmark with controlled spectral properties. Our results confirm that LoRA struggles to approximate matrices with relatively flat spectrums or high frequency components---signs of high effective ranks. To this end, we introduce KRAdapter, a novel PEFT algorithm that leverages the Khatri&ndash;Rao product to produce weight updates, which, by construction, tends to produce matrix product with a high effective rank. We demonstrate performance gains with KRAdapter on vision-language models up to 1B parameters and on large language models up to 8B parameters, particularly on unseen common-sense reasoning tasks. In addition, KRAdapter maintains the memory and compute efficiency of LoRA, making it a practical and robust alternative to fine-tune billion-scale parameter models.
+									</div>
+									<div id="khatri-bibtex", class="paper-bibtex">
+										@inproceedings{albert2025khatri,<br>
+										&nbsp;&nbsp;author = {Albert, Paul and Zhang, Frederic Z. and Saratchandran, Hemanth and ven den Hengel, Anton and Abbasnejad, Ehsan}, <br>
+										&nbsp;&nbsp;title = {Towards Higher Effective Rank in Parameter-Efficient Fine-Tuning Using Khatri-Rao Product}, <br>
+										&nbsp;&nbsp;booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)}, <br>
+										&nbsp;&nbsp;month = {October}, <br>
+										&nbsp;&nbsp;year = {2025}, <br>
+										}
+									</div>
+							</div>
+						</div>
 						<!-- RandLoRA -->
 						<div class="paper gradient-shadow">
 							<div class="paper-teaser"><a href="https://github.com/PaulAlbert31/RandLoRA"><img src="images/publications/randlora.png"></a></div>
 							<div class="paper-info">
-									RandLoRA: Full-Rank Parameter-Efficient Fine-tuning of Large Models
+									RandLoRA: Full-Rank Parameter-Efficient Fine-Tuning of Large Models
 									<span id="paper-author">
 										<a href="https://scholar.google.com/citations?user=trUhFBEAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Paul Albert</a>, 
 										<b>Frederic Z. Zhang</b>,
@@ -100,7 +135,7 @@
 										Low-Rank Adaptation (LoRA) and its variants have shown impressive results in reducing the number of trainable parameters and memory requirements of large transformer networks while maintaining fine-tuning performance. However, the low-rank nature of the weight update inherently limits the representation power of the fine-tuned model, potentially compromising performance on complex tasks. This raises a critical question: when a performance gap between LoRA and standard fine-tuning is  observed, is it due to the reduced number of trainable parameters or the rank deficiency? This paper aims to answer this question by introducing RandLoRA, a parameter-efficient method that performs full-rank updates using a learned linear combinations of low-rank, non-trainable random matrices. Our method limits the number of trainable parameters by restricting optimization to diagonal scaling matrices applied to the fixed random matrices. This allows us to effectively overcome low-rank limitations while maintaining low parameter count and memory usage during training. Through extensive experimentation across vision, language, and vision-language benchmarks, we systematically evaluate the limitations of LoRA and existing random basis methods. Our findings reveal that full-rank updates are beneficial across vision and language tasks separately, but especially so for vision-language tasks, where RandLoRA significantly reduces—and sometimes eliminates—the performance gap between standard finetuning and LoRA, demonstrating its efficacy.
 									</div>
 									<div id="randlora-bibtex", class="paper-bibtex">
-										@misc{albert2025randlora,<br>
+										@inproceedings{albert2025randlora,<br>
 										&nbsp;&nbsp;author = {Albert, Paul and Zhang, Frederic Z. and Saratchandran, Hemanth and Rodriguez-Opazo, Cristian and ven den Hengel, Anton and Abbasnejad, Ehsan}, <br>
 										&nbsp;&nbsp;title = {RandLoRA: Full-Rank Parameter-Efficient Fine-tuning of Large Models}, <br>
 										&nbsp;&nbsp;booktitle = {Proceedings of International Conference on Learning Representations (ICLR)}, <br>
@@ -136,7 +171,7 @@
 										We study the challenging problem of simultaneously localising a sequence of queries in the form of instructional diagrams in a video. This requires understanding not only the individual queries but also their interrelationships. However, most existing methods focus on grounding one query at a time, ignoring the inherent structures among queries such as the general mutual exclusiveness and the temporal order. Consequently, the predicted timespans of different step diagrams may overlap considerably or violate the temporal order, thus harming the accuracy. In this paper, we tackle this issue by simultaneously grounding a sequence of step diagrams. Specifically, we propose composite queries, constructed by exhaustively pairing up the visual content features of the step diagrams and a fixed number of learnable positional embeddings. Our insight is that self-attention among composite queries carrying different content features suppress each other to reduce timespan overlaps in predictions, while the cross-attention corrects the temporal misalignment via content and position joint guidance. We demonstrate the effectiveness of our approach on the IAW dataset for grounding step diagrams and the YouCook2 benchmark for grounding natural language queries, significantly outperforming existing methods while simultaneously grounding multiple queries.
 									</div>
 									<div id="compq-bibtex", class="paper-bibtex">
-										@misc{zhang2025compq,<br>
+										@inproceedings{zhang2025compq,<br>
 										&nbsp;&nbsp;author = {Zhang, Jiahao and Zhang, Frederic Z. and Rodriguez-Opazo, Cristian and Cherian, Anoop and Gould, Stephen}, <br>
 										&nbsp;&nbsp;title = {Temporally Grounding Instructional Diagrams in Unconstrained Videos}, <br>
 										&nbsp;&nbsp;eprint={2407.12066}, <br>
